@@ -39,7 +39,6 @@ public class Annonce {
         this.date = date;
     }
 
-    // Getters et Setters
     public Long getId() {
         return id;
     }

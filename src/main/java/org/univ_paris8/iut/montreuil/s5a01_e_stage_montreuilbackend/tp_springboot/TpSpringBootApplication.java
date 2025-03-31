@@ -7,10 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TpSpringBootApplication {
     public static void main(String[] args) {
         SpringApplication.run(TpSpringBootApplication.class, args);
-        System.out.println("juste pour les information j'ai désactive le security de springboot " +
-                "\n Le user Name et mot de passe sont dans fichier config.properties" +
-                "\n voici le mot de passe et username : tpspringboot");
-        System.out.println("Application Démarée");
+        System.out.println("app started");
 
     }
 

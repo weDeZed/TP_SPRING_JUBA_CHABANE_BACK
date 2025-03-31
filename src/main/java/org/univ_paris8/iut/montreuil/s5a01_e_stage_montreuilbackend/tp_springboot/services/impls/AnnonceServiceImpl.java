@@ -47,7 +47,7 @@ public class AnnonceServiceImpl implements AnnonceService {
                     existingAnnonce.setMail(annonce.getMail());
                     existingAnnonce.setDate(LocalDateTime.now());
                     return annonceRepository.save(existingAnnonce);
-                }).orElseThrow(() -> new RuntimeException("Annonce not found with id " + id));
+                }).orElseThrow(() -> new RuntimeException("Annonce pas trouvée " + id));
     }
 
     @Override
